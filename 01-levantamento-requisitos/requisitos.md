@@ -39,3 +39,22 @@ Este documento detalha o mapeamento dos processos atuais da **Distribuidora Nord
 - **Contas a Pagar integrado:** Geração automática da obrigação financeira assim que o estoque der entrada na Nota Fiscal de compra.
 - **Contas a Receber automatizado:** Integração com o faturamento de vendas para controle de cobranças e boletos.
 - **Fluxo de Caixa em tempo real:** Gráfico ou relatório consolidado de entradas e saídas previstas.
+
+---
+
+## 🔄 4. Fluxo de Processo Proposto (ERP)
+
+Abaixo está o mapeamento visual de como as informações vão transitar entre os setores da Distribuidora Nordeste Ltda. utilizando o novo ERP:
+
+```mermaid
+graph TD
+    A[🛒 Pedido de Compra criado] --> B{👤 Aprovação do Gerente}
+    B -- Rejeitado --> C[❌ Pedido Cancelado]
+    B -- Aprovado --> D[🚚 Recebimento da Carga]
+    D --> E[📦 Entrada Física no Estoque]
+    E --> F[💰 Geração Automática do Contas a Pagar]
+    F --> G[📊 Indicadores Atualizados no Dashboard]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style F fill:#bfb,stroke:#333,stroke-width:2px
