@@ -33,7 +33,7 @@ Durante a primeira semana de uso, uma equipe ficará dedicada exclusivamente par
 
 | Nome do Integrante | Papel no Projeto | Área de Atuação no Dia |
 | :--- | :--- | :--- |
-| **Você (Seu Nome)** | Consultor de Implantação Líder | Coordenação Geral e Fiscal |
+| **Você (Irá Jorge)** | Consultor de Implantação Líder | Coordenação Geral e Fiscal |
 | **João Silva** | Analista de Suporte ERP | Atendimento ao Setor de Compras e TI |
 | **Maria Souza** | Key User (Estoque) | Apoio presencial aos estoquistas na expedição |
 | **Carlos Lima** | Key User (Financeiro) | Apoio presencial no caixa e faturamento |
