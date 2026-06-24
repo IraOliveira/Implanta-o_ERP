@@ -1,11 +1,3 @@
-# Dashboard de Indicadores de Implantação (KPIs de Go-Live)
-
-Este módulo do portfólio apresenta a estrutura de dados, métricas de sucesso e o modelo conceitual de um **Dashboard de Controle de Rollout**, projetado para gerenciar projetos de implantação de sistemas em larga escala (múltiplas filiais/pontos de venda).
-
-O objetivo deste painel é munir a gerência de projetos e a diretoria com visibilidade em tempo real sobre a saúde da virada de chave (*Go-Live*), mitigando riscos de atraso e gargalos de treinamento.
-
----
-
 ## 1. Indicadores Chave de Performance (KPIs) Mapeados
 
 O painel foi estruturado com base em 4 pilares indispensáveis para governança de projetos de sistemas:
